@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>CreAR TARea</h1>
+
+    <p style="color: red;">{{error}}</p>
+
+    <form method="POST">
+
+        {% csrf_token %}
+
+        {{form.as_p}}
+
+        <button>
+            GuarDaR
+        </button>
+
+    </form>
+
+
+{% endblock %}
+
+<h1>CreAR TARea </h1>

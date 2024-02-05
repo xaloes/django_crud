@@ -24,5 +24,6 @@ urlpatterns = [
     path('singup/', views.singup, name='singup' ),
     path('tareas/', views.tareas, name='tareas' ),
     path('salir/', views.salir, name='salir' ),
-    path('logarse/', views.logarse, name='logarse' )
+    path('logarse/', views.logarse, name='logarse' ),
+    path('tareas/crear/', views.crear_tarea, name='crear_tarea' )
 ]
