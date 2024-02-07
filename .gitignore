@@ -1,1 +1,3 @@
-tareas/__pycache__/forms.cpython-310.pyc
+venv
+__pycache__
+db.sqlite3
